@@ -6,5 +6,6 @@ document.getElementById('addTodoButton').addEventListener('click', function () {
     li.textContent = todoInput.value
     document.getElementById('todoList').appendChild(li)
     todoInput.value = ''
+    // add comment
   }
 })
