@@ -5,6 +5,6 @@ document.getElementById('addTodoButton').addEventListener('click', function () {
     const li = document.createElement('li')
     li.textContent = todoInput.value
     document.getElementById('todoList').appendChild(li)
-    // todoInput.value = ''
+    todoInput.value = ''
   }
 })
