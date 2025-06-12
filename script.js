@@ -3,9 +3,8 @@ document.getElementById('addTodoButton').addEventListener('click', function () {
   const todoText = todoInput.value.trim()
   if (todoText) {
     const li = document.createElement('li')
-    li.textContent = todoInput.value
+    li.textContent = todoText
     document.getElementById('todoList').appendChild(li)
-    todoInput.value = ''
-    // add comment
+    todoInput.value = '' // Clear the input field
   }
 })
